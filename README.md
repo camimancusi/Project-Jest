@@ -1,6 +1,7 @@
 # Import a metamask wallet
  
 This repository contains the code to import a metamask wallet for version v.10.8.1. using puppeteer/ dappeteer (https://github.com/ChainSafe/dappeteer)
+
 You can use it as template for e2e test which require the connection with the wallet
 
 
