@@ -1,4 +1,4 @@
-describe('Google', () => {
+describe('Ethereum', () => {
   beforeAll(async () => {
     await page.goto('https://ethereum.org/en/');
   });
