@@ -18,8 +18,9 @@ module.exports = async function () {
     
     //Change the network in metamask
     await metamask.switchNetwork(NETWORK_NAME);
-
-    //global.browser = browser;
+    const isBrowser = typeof window !== 'undefined';
+    console.log(isBrowser);
+    global.browser = browser;
     process.env.PUPPETEER_WS_ENDPOINT = browser.wsEndpoint();
   } catch (error) {
     console.log(error);
