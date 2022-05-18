@@ -4,17 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --config=jest.config.js"
+    "test": "jest --config=jest.config.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^27.5.1",
     "jest": "^28.0.3",
     "jest-puppeteer": "^6.1.0"
   },
   "dependencies": {
     "@chainsafe/dappeteer": "^2.4.1",
-    "mkdirp": "^1.0.4"
+    "@types/jest-environment-puppeteer": "^5.0.2",
+    "@types/node": "^17.0.34",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.4",
+    "mkdirp": "^1.0.4",
+    "typescript": "^4.6.4"
   }
 }
